@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'products/styles.css' %}">
+    <title>Каталог</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Ярче!</h1>
+        <input type="text" placeholder="Найти товар в Ярче">
+        <button>Укажите адрес</button>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Каталог</h2>
+            <ul>
+                <li><img src="{% static 'icons/fruits.png' %}" alt="Овощи и фрукты"> Овощи и фрукты</li>
+                <li><img src="{% static 'icons/milk.png' %}" alt="Молочные продукты"> Молоко, яйца и сыр</li>
+                <li><img src="{% static 'icons/sweets.jpeg' %}" alt="Сладости"> Сладости и десерты</li>
+                <li><img src="{% static 'icons/pasta.jpeg' %}" alt="Макароны"> Макароны, крупы и мука</li>
+                <li><img src="{% static 'icons/bread.jpg' %}" alt="Хлеб"> Хлеб, выпечка и тесто</li>
+            </ul>
+        </aside>
+        <main>
+            <div class="filters">
+                <button>Максимум выгоды</button>
+                <button>%</button>
+                <button>Популярное</button>
+                <button>Произвели сами</button>
+            </div>
+            <div class="catalog">
+                {% for product in products %}
+                <div class="card">
+                    <img src="{% if product.image %}{{ product.image.url }}{% else %}{% static 'images/default.jpg' %}{% endif %}" alt="{{ product.name }}">
+                    <div class="info">
+                        <h3>{{ product.name }}</h3>
+                        <p>{{ product.category }}</p>
+                        <p class="price">{{ product.price }} ₽</p>
+                        <button class="add-to-cart" onclick="location.href='{% url 'add_to_cart' product.pk %}'">Добавить в корзину</button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </main>
+    </div>
+</body>
+</html>

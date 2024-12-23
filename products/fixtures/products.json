@@ -1,0 +1,237 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "Яблоко",
+            "category": "Фрукт",
+            "quantity": 15,
+            "price": "300",
+            "description": "Сладкое, красное, свежее",
+            "image": "product_images/apple.png"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "Помидор",
+            "category": "Овощ",
+            "quantity": 7,
+            "price": "250",
+            "description": "Вкусный, сочный, кыргызские"
+        }
+    },
+
+  {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "Перец",
+            "category": "Овощ",
+            "quantity": 5,
+            "price": "150",
+            "description": "Вкусный, красный, большой"
+        }
+    },
+
+  {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "Слива",
+            "category": "Фрукт",
+            "quantity": 8,
+            "price": "400",
+            "description": "Вкусная, спелая, крупная"
+        }
+    },
+
+   {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "Зеленый горошек",
+            "category": "Консервы",
+            "quantity": 30,
+            "price": "76.99",
+            "description": "Консервированный горошек высокого качества"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "name": "Капучино MacCoffee",
+            "category": "Напитки",
+            "quantity": 25,
+            "price": "119.99",
+            "description": "Кофе для уютного утра"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "name": "Кириешки со вкусом сыра",
+            "category": "Снеки",
+            "quantity": 60,
+            "price": "27.99",
+            "description": "Хрустящие сухарики"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "name": "Молоко Домик в деревне",
+            "category": "Молочные продукты",
+            "quantity": 50,
+            "price": "59.99",
+            "description": "Свежайшее молоко из деревни"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "name": "Шоколад Альпен Гольд",
+            "category": "Сладости",
+            "quantity": 100,
+            "price": "89.99",
+            "description": "Молочный шоколад высокого качества"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "name": "Макароны Barilla",
+            "category": "Макароны",
+            "quantity": 30,
+            "price": "149.99",
+            "description": "Лучшие итальянские макароны"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "name": "Батон Белый",
+            "category": "Хлеб",
+            "quantity": 20,
+            "price": "34.99",
+            "description": "Свежий белый хлеб"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "name": "Чай Lipton",
+            "category": "Напитки",
+            "quantity": 45,
+            "price": "149.99",
+            "description": "Чай с насыщенным вкусом"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "name": "Йогурт Активиа",
+            "category": "Молочные продукты",
+            "quantity": 70,
+            "price": "39.99",
+            "description": "Полезный йогурт для здоровья"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "name": "Конфеты Рафаэлло",
+            "category": "Сладости",
+            "quantity": 50,
+            "price": "299.99",
+            "description": "Идеальный подарок для сладкоежек"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "name": "Куриное филе",
+            "category": "Мясо",
+            "quantity": 20,
+            "price": "199.99",
+            "description": "Свежайшее куриное филе"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "name": "Колбаса Докторская",
+            "category": "Колбасы",
+            "quantity": 25,
+            "price": "250.00",
+            "description": "Классическая докторская колбаса"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "name": "Сыр Президент",
+            "category": "Молочные продукты",
+            "quantity": 30,
+            "price": "349.99",
+            "description": "Французский сыр высокого качества"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "name": "Пельмени Сибирская коллекция",
+            "category": "Замороженные продукты",
+            "quantity": 15,
+            "price": "450.00",
+            "description": "Настоящие сибирские пельмени"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "name": "Картофель фри",
+            "category": "Замороженные продукты",
+            "quantity": 20,
+            "price": "129.99",
+            "description": "Идеальная закуска"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "name": "Кетчуп Хайнц",
+            "category": "Соусы",
+            "quantity": 35,
+            "price": "79.99",
+            "description": "Лучший томатный кетчуп"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "name": "Соус Терияки",
+            "category": "Соусы",
+            "quantity": 40,
+            "price": "99.99",
+            "description": "Азиатский вкус к вашим блюдам"
+        }
+    }
+]
